@@ -1,3 +1,6 @@
+
+#This function takes a roi zip file and extracts roi coordinates as tuples (left,top,right,bottom) to be then used for cropping images using PIL toolbox
+
 from read_roi import read_roi_file
 from read_roi import read_roi_zip
 def extract_roi_coordinates(roizipfile):
