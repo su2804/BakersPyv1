@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @su2804
+- 👋 Hi, I’m Saransh,@su2804
 - 👀 I’m interested in cellular image analysis
 - 🌱 I’m currently learning to image yeast cells and extract useful information regarding their energetics
 - 💞️ I’m looking to collaborate on machine learning based analysis if intracellular strutures
