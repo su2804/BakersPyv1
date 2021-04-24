@@ -4,6 +4,7 @@ BakersPy has the following dependencies:
 <li><p>YeaZ</p></li>
 <li><p>read-roi</p></li>
 <li><p>napari</p></li>
+<li><p>nd2reader</p></li>
 
 </ul>
 To install YeaZ, follow the instructions [here] (https://github.com/lpbsscientist/YeaZ-GUI). While installing YeaZ, the instructions will prompt you to create a
