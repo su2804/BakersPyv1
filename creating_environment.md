@@ -3,6 +3,8 @@ BakersPy has the following dependencies:
 <ul>
 <li><p>YeaZ</p></li>
 <li><p>read-roi</p></li>
+<li><p>napari</p></li>
+
 </ul>
 To install YeaZ, follow the instructions [here] (https://github.com/lpbsscientist/YeaZ-GUI). While installing YeaZ, the instructions will prompt you to create a
 conda environment called 'YeaZ'. We will use this environment as the core of BakersPy and add/install packages based on our needs.
@@ -24,6 +26,17 @@ Finally, install the second dependency which is read-roi using the following com
 <pre><code>
 pip install read-roi
 </code></pre>
+
+To install napari (viewing images:
+<pre><code>
+pip install 'napari[all]'
+</code></pre>
+
+To install nd2reader:
+<pre><code>
+pip install nd2reader
+</code></pre>
+
 
 To write scripts in this environment, just type in the name of your favorite editor (i use atom)
 <pre><code>
