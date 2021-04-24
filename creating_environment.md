@@ -1,5 +1,5 @@
 Before we start baking (analyzing baker's yeast), its important to create an environment that we can rely on to reproduce our analysis. 
-BakersPy has the following dependencies:
+BakersPy has the following main dependencies:
 <ul>
 <li><p>YeaZ</p></li>
 <li><p>read-roi</p></li>
