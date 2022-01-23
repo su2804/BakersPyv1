@@ -1,0 +1,5 @@
+notes: to do
+
+noisify masked images: ask for background mu and sigma in the append
+print expections on the app screen
+add a plotting button to show plots from csv files
