@@ -139,7 +139,7 @@ class UI(QDialog):
                                 if np.shape(cell_size_extractor(cleaned_img))[0]==1: #unbudded cells
 
                                     imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'.tif', c1_img)
-                                    imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'_cell.tif',cell_img)
+                                    imwrite('output_path'+'/'+channel3+'/'+str(cell_index)+'_cell.tif',cell_img)
                                     imwrite('output_path'+'/'+channel1+'_masked'+'/'+str(cell_index)+'.tif',masked_hstack)
                                     writer.writerow({'cellsize':cell_size_extractor(cleaned_img)[0][3]*0.000091125,'state':1}) #cell volume added to the csv file
                                     cell_index+=1
@@ -149,7 +149,7 @@ class UI(QDialog):
 
                                 elif np.shape(cell_size_extractor(cleaned_img))[0]==2: #budded cells
                                     imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'.tif', c1_img)
-                                    imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'_cell.tif',cell_img)
+                                    imwrite('output_path'+'/'+channel3+'/'+str(cell_index)+'_cell.tif',cell_img)
                                     imwrite('output_path'+'/'+channel1+'_masked'+'/'+str(cell_index)+'.tif',masked_hstack)
                                     writer.writerow({'cellsize':(cell_size_extractor(cleaned_img)[0][3]+cell_size_extractor(cleaned_img)[1][3])*0.000091125,'state':2}) #add mother and daughter cell volumes to the csv file
                                     cell_index+=1
@@ -225,7 +225,7 @@ class UI(QDialog):
                                 if np.shape(cell_size_extractor(cleaned_img))[0]==1: #unbudded cells
 
                                     imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'.tif', c1_img)
-                                    imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'_cell.tif',cell_img)
+                                    imwrite('output_path'+'/'+channel3+'/'+str(cell_index)+'_cell.tif',cell_img)
                                     imwrite('output_path'+'/'+channel1+'_masked'+'/'+str(cell_index)+'.tif',masked_hstack)
                                     writer.writerow({'cellsize':cell_size_extractor(cleaned_img)[0][3]*0.000091125,'state':1}) #cell volume added to the csv file
                                     cell_index+=1
@@ -235,7 +235,7 @@ class UI(QDialog):
 
                                 elif np.shape(cell_size_extractor(cleaned_img))[0]==2: #budded cells
                                     imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'.tif', c1_img)
-                                    imwrite('output_path'+'/'+channel1+'/'+str(cell_index)+'_cell.tif',cell_img)
+                                    imwrite('output_path'+'/'+channel3+'/'+str(cell_index)+'_cell.tif',cell_img)
                                     imwrite('output_path'+'/'+channel1+'_masked'+'/'+str(cell_index)+'.tif',masked_hstack)
                                     writer.writerow({'cellsize':(cell_size_extractor(cleaned_img)[0][3]+cell_size_extractor(cleaned_img)[1][3])*0.000091125,'state':2}) #add mother and daughter cell volumes to the csv file
                                     cell_index+=1
