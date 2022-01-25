@@ -35,7 +35,7 @@ function processFile(input, output, file) {
 	setAutoThreshold("Otsu");
 	setOption("BlackBackground", true);
 	run("Convert to Mask");
-	saveAs("Tiff", toString(output)+"/IJ_script_output_er_segmentation_FFT_BPF_Otsu/"+file);		
+	saveAs("Tiff", toString(output)+"/"+file);		
    
 	close();
 
