@@ -163,8 +163,8 @@ class UI(QDialog):
                         if maskindex<11:
 
                             #extract roi's
-                            roi_tuples= extract_roi_coordinates(roi_path+'/fov'+str(maskindex)+'_cyto.zip');
-                            maskimage=cv2.imread(mask_path+'/mask000'+str(maskindex-1)+'.tif',cv2.IMREAD_UNCHANGED)
+                            roi_tuples= extract_roi_coordinates(roi_path+'/fov'+str(maskindex)+'.zip');
+                            maskimage=cv2.imread(mask_path+'/cell_mask000'+str(maskindex-1)+'.tif',cv2.IMREAD_UNCHANGED)
                             maskarray=np.array(maskimage)
                             maskarray.astype(int)
                             l=len(roi_tuples);
@@ -246,8 +246,8 @@ class UI(QDialog):
                         elif maskindex>10 & maskindex<101:
 
                             #extract roi's
-                            roi_tuples= extract_roi_coordinates(roi_path+'/fov'+str(maskindex)+'_cyto.zip');
-                            maskimage=cv2.imread(mask_path+'/mask00'+str(maskindex-1)+'.tif',cv2.IMREAD_UNCHANGED)
+                            roi_tuples= extract_roi_coordinates(roi_path+'/fov'+str(maskindex)+'.zip');
+                            maskimage=cv2.imread(mask_path+'/cell_mask00'+str(maskindex-1)+'.tif',cv2.IMREAD_UNCHANGED)
                             maskarray=np.array(maskimage)
                             maskarray.astype(int)
                             l=len(roi_tuples);
