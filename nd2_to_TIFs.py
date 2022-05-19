@@ -1,5 +1,4 @@
 #Extract cell channel images from an nd2 file and write it TIFs
-import nd2
 import numpy as np
 from pims import ND2_Reader
 from tifffile import imsave
@@ -19,4 +18,4 @@ def nd2_to_TIFs(file,output_path):
     frames.close()
 
 
-nd2_to_TIFs('/Users/Saransh/Documents/OneDrive - UC San Diego/20211211/20211211_raf+aa+succ_mito_er+mito_cyto_OD0.265_3k2m8k2m001.nd2','/Users/Saransh/Documents/OneDrive - UC San Diego/20211209/TIFs_Raf/')
+nd2_to_TIFs('/Users/Saransh/Documents/2022.03.03/nd2/20220303_gal_mito_er+mito_cyto_mitovac_OD0.426.nd2','/Users/Saransh/Documents/2022.03.03/Galactose/TIFs_Phase/')

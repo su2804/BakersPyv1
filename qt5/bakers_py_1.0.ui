@@ -28,9 +28,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>10</y>
-     <width>181</width>
-     <height>151</height>
+     <y>30</y>
+     <width>191</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="text">
@@ -400,7 +400,7 @@
      <string>mu1</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="num_fovs_2">
+   <widget class="QLineEdit" name="mean_1">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -426,7 +426,7 @@
      <string>sigma1</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="num_fovs_3">
+   <widget class="QLineEdit" name="std_1">
     <property name="geometry">
      <rect>
       <x>610</x>
@@ -452,7 +452,7 @@
      <string>mu2</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="num_fovs_4">
+   <widget class="QLineEdit" name="mean_2">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -478,7 +478,7 @@
      <string>sigma2</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="num_fovs_5">
+   <widget class="QLineEdit" name="std_2">
     <property name="geometry">
      <rect>
       <x>610</x>
